@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1819B6F51B7745150002325E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819B6F41B7745150002325E /* main.m */; };
+		1819B6F81B7745150002325E /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819B6F71B7745150002325E /* MBAppDelegate.m */; };
+		1819B6FB1B7745150002325E /* MBCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819B6FA1B7745150002325E /* MBCameraViewController.m */; };
+		1819B6FE1B7745150002325E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1819B6FC1B7745150002325E /* Main.storyboard */; };
+		1819B7001B7745150002325E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1819B6FF1B7745150002325E /* Assets.xcassets */; };
+		1819B7031B7745150002325E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1819B7011B7745150002325E /* LaunchScreen.storyboard */; };
+		1819B7281B7755C80002325E /* MBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819B7271B7755C80002325E /* MBRootViewController.m */; };
+		18A36CE61B780298004374DA /* MBCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A36CE51B780298004374DA /* MBCameraView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1819B6F01B7745150002325E /* MLKit-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MLKit-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1819B6F41B7745150002325E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1819B6F61B7745150002325E /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
+		1819B6F71B7745150002325E /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
+		1819B6F91B7745150002325E /* MBCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBCameraViewController.h; sourceTree = "<group>"; };
+		1819B6FA1B7745150002325E /* MBCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBCameraViewController.m; sourceTree = "<group>"; };
+		1819B6FD1B7745150002325E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1819B6FF1B7745150002325E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1819B7021B7745150002325E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1819B7041B7745150002325E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1819B7261B7755C80002325E /* MBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRootViewController.h; sourceTree = "<group>"; };
+		1819B7271B7755C80002325E /* MBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRootViewController.m; sourceTree = "<group>"; };
+		18A36CE41B780298004374DA /* MBCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCameraView.h; sourceTree = "<group>"; };
+		18A36CE51B780298004374DA /* MBCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCameraView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1819B6ED1B7745150002325E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1819B6E71B7745150002325E = {
+			isa = PBXGroup;
+			children = (
+				1819B6F21B7745150002325E /* MLKit-demo */,
+				1819B6F11B7745150002325E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1819B6F11B7745150002325E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1819B6F01B7745150002325E /* MLKit-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1819B6F21B7745150002325E /* MLKit-demo */ = {
+			isa = PBXGroup;
+			children = (
+				1819B6F61B7745150002325E /* MBAppDelegate.h */,
+				1819B6F71B7745150002325E /* MBAppDelegate.m */,
+				1819B6F91B7745150002325E /* MBCameraViewController.h */,
+				1819B6FA1B7745150002325E /* MBCameraViewController.m */,
+				18A36CE41B780298004374DA /* MBCameraView.h */,
+				18A36CE51B780298004374DA /* MBCameraView.m */,
+				1819B7261B7755C80002325E /* MBRootViewController.h */,
+				1819B7271B7755C80002325E /* MBRootViewController.m */,
+				1819B6FC1B7745150002325E /* Main.storyboard */,
+				1819B6FF1B7745150002325E /* Assets.xcassets */,
+				1819B7011B7745150002325E /* LaunchScreen.storyboard */,
+				1819B7041B7745150002325E /* Info.plist */,
+				1819B6F31B7745150002325E /* Supporting Files */,
+			);
+			path = "MLKit-demo";
+			sourceTree = "<group>";
+		};
+		1819B6F31B7745150002325E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1819B6F41B7745150002325E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1819B6EF1B7745150002325E /* MLKit-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1819B71D1B7745150002325E /* Build configuration list for PBXNativeTarget "MLKit-demo" */;
+			buildPhases = (
+				1819B6EC1B7745150002325E /* Sources */,
+				1819B6ED1B7745150002325E /* Frameworks */,
+				1819B6EE1B7745150002325E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MLKit-demo";
+			productName = "Camera-Sample";
+			productReference = 1819B6F01B7745150002325E /* MLKit-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1819B6E81B7745150002325E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MicroBlink;
+				TargetAttributes = {
+					1819B6EF1B7745150002325E = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 85L3DFE3A8;
+					};
+				};
+			};
+			buildConfigurationList = 1819B6EB1B7745150002325E /* Build configuration list for PBXProject "MLKit-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1819B6E71B7745150002325E;
+			productRefGroup = 1819B6F11B7745150002325E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1819B6EF1B7745150002325E /* MLKit-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1819B6EE1B7745150002325E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1819B7031B7745150002325E /* LaunchScreen.storyboard in Resources */,
+				1819B7001B7745150002325E /* Assets.xcassets in Resources */,
+				1819B6FE1B7745150002325E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1819B6EC1B7745150002325E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A36CE61B780298004374DA /* MBCameraView.m in Sources */,
+				1819B6FB1B7745150002325E /* MBCameraViewController.m in Sources */,
+				1819B7281B7755C80002325E /* MBRootViewController.m in Sources */,
+				1819B6F81B7745150002325E /* MBAppDelegate.m in Sources */,
+				1819B6F51B7745150002325E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1819B6FC1B7745150002325E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1819B6FD1B7745150002325E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1819B7011B7745150002325E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1819B7021B7745150002325E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1819B71B1B7745150002325E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1819B71C1B7745150002325E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1819B71E1B7745150002325E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85L3DFE3A8;
+				INFOPLIST_FILE = "MLKit-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microblink.camera;
+				PRODUCT_NAME = "MLKit-demo";
+			};
+			name = Debug;
+		};
+		1819B71F1B7745150002325E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85L3DFE3A8;
+				INFOPLIST_FILE = "MLKit-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microblink.camera;
+				PRODUCT_NAME = "MLKit-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1819B6EB1B7745150002325E /* Build configuration list for PBXProject "MLKit-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1819B71B1B7745150002325E /* Debug */,
+				1819B71C1B7745150002325E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1819B71D1B7745150002325E /* Build configuration list for PBXNativeTarget "MLKit-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1819B71E1B7745150002325E /* Debug */,
+				1819B71F1B7745150002325E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1819B6E81B7745150002325E /* Project object */;
+}
